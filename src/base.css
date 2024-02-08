@@ -1,0 +1,51 @@
+body {
+    min-height: 100vh;
+    background-image: url('./back.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: myFont;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding-top: 36px;
+    width: clamp(390px, 31vw, 31vw ); 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+button {
+    width: clamp(120px, 10vw, 11vw );
+    height: 44px;
+    background-color: rgba(20, 255, 67, 0.901);
+    font-size: 20px;
+    font-family: myFont1;
+    box-shadow: 36px 54px 18px 8px rgba(14, 7, 30, 0.84);
+}
+
+button.active {
+    background-color: rgba(42, 212, 76, 0.901);
+    transform: scale(0.98);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('./ROCK.TTF');
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url('./belwe\ bold\ bt.ttf');
+}
+
+#content {
+    margin: auto 0;
+}

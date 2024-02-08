@@ -1,0 +1,22 @@
+.contacts {
+    background-color: rgba(20, 255, 67, 0.901);
+    display: flex;
+    gap: 1rem;
+    padding: 24px 36px 36px 36px;
+    font-size: 24px;
+    flex-direction: column;
+    width: clamp(350px, 31vw, 31vw );
+    max-height: 65vh;
+    box-shadow: 36px 54px 18px 8px rgba(14, 7, 30, 0.84);
+}
+
+.social > img {
+    padding: 10px;
+    height: 55px;
+    box-shadow: 36px 54px 18px 8px rgba(14, 7, 30, 0.84);
+}
+
+.social {
+    text-align: center;
+    padding: 40px 0;
+}
