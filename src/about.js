@@ -27,9 +27,9 @@ contacts.appendChild(location1)
 contacts.appendChild(tel)
 contacts.appendChild(hours)
 
-for (let n=0; n<icons.length; n++) {
+for (const icon of icons) {
     const iconImg = new Image()
-    iconImg.src = icons[n]
+    iconImg.src = icon
     social.appendChild(iconImg)
 }
 
