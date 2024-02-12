@@ -11,7 +11,7 @@ h2 {
   padding: 24px 36px 36px 36px;
   font-size: clamp(20px, 1.5vw, 24px);
   width: clamp(350px, 31vw, 31vw );
-  max-height: 65vh;
+  max-height: 70vh;
   background-color: rgba(20, 255, 67, 0.901);
   
   box-shadow: 36px 54px 18px 8px rgba(14, 7, 30, 0.84);
